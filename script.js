@@ -1,4 +1,4 @@
-function check() {
+function seeResult() {
     var c = 0;
     var q1 = document.quiz.query1.value;
     var q2 = document.quiz.query2.value;
