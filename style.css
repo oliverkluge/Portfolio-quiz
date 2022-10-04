@@ -1,0 +1,20 @@
+.welcome {
+    color: black;
+    font-size: xxx-large;
+    margin-left: 20rem;
+}
+
+body {
+    background-color: darkkhaki;
+    color: white;
+    font-size: 20px;
+    font-weight: revert;
+    margin-left: 1rem;
+}
+
+.result-button {
+     background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}

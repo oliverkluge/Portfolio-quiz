@@ -2,26 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Quiz</title>
+  <title>Quiz om Folketinget</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
+<form class="welcome">
+Velkommen til min quiz om Folketinget
+</form>
+<br>
 <body>
-<div class="container">
-  <div id="question-container" class="hide">
-    <div id="question">Question</div>
-    <div id="answer-buttons" class="btn-grid">
-      <button class="btn">Answer 1</button>
-      <button class="btn">Answer 2</button>
-      <button class="btn">Answer 3</button>
-      <button class="btn">Answer 4</button>
+  <form name="quiz" id="quiz">
+    <div>
+      <p>1. Hvor mange medlemmer er der i folketinget?</p>
+        <p><input type="radio" name="query1" value="170">A. 170</p>
+        <p><input type="radio" name="query1" value="174">B. 174</p>
+        <p><input type="radio" name="query1" value="179">C. 179</p>
+        <p><input type="radio" name="query1" value="185">D. 185</p>
     </div>
-  <div class="controls">
-    <button id="start-btn" class="start-btn btn">Start</button>
-    <button id="next-btn" class="next-btn btn hide">Next</button>
-  </div>
-</div>
+<br>
+    <div>
+      <p>2. Hvem er landets statsminister?</p>
+      <p><input type="radio" name="query2" value="Lars Løkke Rasmussen">A. Lars Løkke Rasmussen</p>
+      <p><input type="radio" name="query2" value="Inger Støjberg">B. Inger Støjberg</p>
+      <p><input type="radio" name="query2" value="Søren Pape Poulsen">C. Søren Pape Poulsen</p>
+        <p><input type="radio" name="query2" value="Mette Frederiksen">D. Mette Frederiksen</p>
+    </div>
+<br>
+    <div>
+      <p>3. Hvem var Danmarks første statsminister?</p>
+      <p><input type="radio" name="query3" value="Carl Theodor Zahle">A. Carl Theodor Zahle</p>
+      <p><input type="radio" name="query3" value="Knud Kristensen">B. Knud Kristensen</p>
+      <p><input type="radio" name="query3" value="Bertel Haarder">C. Bertel Haarder</p>
+        <p><input type="radio" name="query3" value="Thorvald Stauning">D. Thorvald Stauning</p>
+    </div>
+<br>
+    <div>
+      <p>4. Hvem er landets justitsminister?</p>
+      <p><input type="radio" name="query4" value="Nick Hækkerup">A. Nick Hækkerup</p>
+      <p><input type="radio" name="query4" value="Mattias Tesfaye">B. Mattias Tesfaye</p>
+      <p><input type="radio" name="query4" value="Frank Jensen">C. Frank Jensen</p>
+        <p><input type="radio" name="query4" value="Lene Espersen">D. Lene Espersen</p>
+    </div>
+<br>
+    <div>
+      <p>5. Hvem er formand for partiet Venstre?</p>
+      <p><input type="radio" name="query5" value="Anders Fogh-Rasmussen">A. Anders Fogh-Rasmussen</p>
+      <p><input type="radio" name="query5" value="Erik Eriksen">B. Erik Eriksen</p>
+      <p><input type="radio" name="query5" value="Henning Christophersen">C. Henning Christophersen</p>
+        <p><input type="radio" name="query5" value="Jakob Ellemann-Jensen">D. Jakob Ellemann-Jensen</p>
+    </div>
+<br>
+    <div>
+      <p>6. Hvem er formand for Folketinget?</p>
+      <p><input type="radio" name="query6" value="Mogens Lykketoft">A. Mogens Lykketoft</p>
+      <p><input type="radio" name="query6" value="Thor Pedersen">B. Thor Pedersen</p>
+      <p><input type="radio" name="query6" value="Henrik Dam Kristensen">C. Henrik Dam Kristensen</p>
+      <p><input type="radio" name="query6" value="Erling Olsen">D. Erling Olsen</p>
+    </div>
+<br>
+    <div>
+      <p>7. Hvornår blev Enhedslisten dannet?</p>
+      <p><input type="radio" name="query7" value="1989">A. 1989</p>
+      <p><input type="radio" name="query7" value="1991">B. 1991</p>
+      <p><input type="radio" name="query7" value="1995">C. 1995</p>
+      <p><input type="radio" name="query7" value="1999">D. 1999</p>
+    </div>
+<br>
+    <div>
+      <p>8. Hvor gammel er Pia Kjærsgaard?</p>
+      <p><input type="radio" name="query8" value="60 år">A. 60 år</p>
+      <p><input type="radio" name="query8" value="65 år">B. 65 år</p>
+      <p><input type="radio" name="query8" value="70 år">C. 70 år</p>
+      <p><input type="radio" name="query8" value="75 år">D. 75 år</p>
+    </div>
+<br>
+    <div>
+      <p>9. Hvor har politikerne deres daglige gang?</p>
+      <p><input type="radio" name="query9" value="Amalienborg slot">A. Amalienborg slot</p>
+      <p><input type="radio" name="query9" value="Christiansborg slot">B. Christiansborg slot</p>
+      <p><input type="radio" name="query9" value="Rosenborg slot">C. Rosenborg slot</p>
+      <p><input type="radio" name="query9" value="Dragsholm slot">D. Dragsholm slot</p>
+    </div>
+<br>
+    <div>
+      <p>10. Hvem har partibogstaverne DD?</p>
+      <p><input type="radio" name="query10" value="Dansk Folkeparti">A. Dansk Folkeparti</p>
+      <p><input type="radio" name="query10" value="Det Konservative Folkeparti">B. Det Konservative Folkeparti</p>
+      <p><input type="radio" name="query10" value="Kristendemokraterne">C. Kristendemokraterne</p>
+      <p><input type="radio" name="query10" value="Danmarksdemokraterne">D. Danmarksdemokraterne</p>
+    </div>
 
+    <input type="button" class="result-button" value="Se dit resultat" onclick="check()">
+  </form>
 
+<p id="showResult"></p>
 </body>
 </html>
